@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thay the ký trong mang</title>
+</head>
+<body>
+<script>
+    let arr = [];
+    let N =+prompt("nhap do dai mang");
+    for (let i=0; i<N; i++){
+        arr[i] = prompt("nhap phan tu thu "+i+" trong mang");
+    }
+    document.write("Mang arr là :"+arr+"<br>");
+    let str = arr.join();
+    document.write("doan chuoi la: " +str);
+    let rep = str.replace('-','_');
+    document.write("<br>doan chuoi sau thay the la: " +rep);
+    // let arrnew =
+
+</script>
+</body>
+</html>
